@@ -67,7 +67,7 @@
             command.Connection.Open();
             command.CommandType = System.Data.CommandType.StoredProcedure;
             command.Parameters.Clear();
-            command.Parameters.AddWithValue("@CompanyGroupID", "2");
+            command.Parameters.AddWithValue("@CompanyGroupID", "1");
             command.Parameters.AddWithValue("@Data", jsonrate);
             command.Parameters.AddWithValue("@UserID", "1");
             command.ExecuteNonQuery();
